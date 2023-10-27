@@ -1,7 +1,7 @@
 ### Instruções
 
-- pegue o ip do seu computador, mais a porta do servidor e coloque na variavel do arduino "serverName", com a rota /estacao-json.
+- Pegue o IP do seu computador e, em seguida, obtenha a porta do servidor que aparecerá no terminal. Coloque essa porta na variável do Arduino chamada "serverName" com a rota "/estacao-json".
 
 Exemplo: String serverName = "http://192.168.0.210:3000/estacao-json";
 
-- Após mudar use o comando "npm start".
+- Após fazer essa alteração, execute o comando "npm start".
