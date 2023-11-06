@@ -32,7 +32,7 @@ async function insertJson(json:any) {
 
 app.post('/estacao-json', (req, res) => {
     res.set('Content-Type', 'application/json');
-    res.set('x-api-key', 'soijd7ehdhwdh7a3ihaih');
+    res.set('x-api-key', '4554545sdsdsd5454');
 
     //console.log('Dados recebidos do Arduino:');
     //console.log(req.body);
