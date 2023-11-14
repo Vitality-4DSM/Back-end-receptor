@@ -2,7 +2,7 @@ import express from 'express';
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const app = express();
-const port = 3000;
+const port = 3002;
 
 app.use(express.json());
 
@@ -40,6 +40,12 @@ app.post('/estacao-json', (req, res) => {
     res.status(200).send('Dados recebidos com sucesso!' + req.body);
     
     insertJson(req.body)
+});
+
+
+app.get('/cheguei', (req, res) => {
+  console.log("cheguei");
+  res.send("cheguei");
 });
 
 app.listen(port, () => {
